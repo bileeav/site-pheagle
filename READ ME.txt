@@ -1,0 +1,49 @@
+Jubilee G. Avenido
+BS-IT (2D)
+
+
+Pheagle
+
+2020-2021
+
+
+>>promoting biodiversity to Filipinos
+
+>>introducing endemic species that requires movement from Filpinos especially younger people
+
+>>to raise awareness of the threatened endemic species
+
+
+
+*Please execute "index.html" first.
+
+
+
+
+References:
+
+*http://www.baltana.com/birds/philippine-eagle-hd-desktop-wallpaper-20299.html
+
+*https://www.cepf.net/our-wor
+k/biodiversity-hotspots/philippines/species
+
+*https://mb.com.ph/2020/09/26/new-endangered-ph-endemic-plant-species-discovered-in-palawan-forest/#:~:text=Named%20Scaevola%20subalpina%2C%20the%20new,Malabrigo%20said%20in%20the%20journal
+*https://www.conservation.org/philippines/projects/protecting-biodiversity-in-the-philippines
+*https://kapwatravel.com/blog/philippine-wildlife-endemic-and-endangered-species-in-the-philippines/
+*https://www.rainforesttrust.org/projects/saving-palawans-endemic-wildlife/
+*https://www.chemonics.com/projects/saving-biodiversity-philippines/
+
+*https://www.cbd.int/countries/profile/?country=ph#facts
+
+*https://www.endangered.org/10-easy-things-you-can-do-to-save-endangered-species/
+*https://cnnphilippines.com/life/leisure/travel/2020/11/4/endangered-tamaraws-mindoro.html
+
+
+
+
+
+Update requires:
+--remove semantics
+--cleaner code
+--validate with validate.w3.org
+--font styles

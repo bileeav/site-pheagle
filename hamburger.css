@@ -1,0 +1,136 @@
+/*This hides the content in the navigation menu*/
+#menu .main-menu {
+  display: none;
+}
+
+/*":checked pseudo element" the menu becomes responsive.*/
+#tm:checked + .main-menu {
+  display: block;
+}
+
+/*Sets the proper position in the content of the navigation menu*/
+#menu ul{
+position: absolute;
+width: 18em;
+background-color: white;
+  margin-top: 2.2em;
+  padding: 0;
+  margin-left: 65.2em;
+}
+
+/*Hides input checkboxes*/
+#menu input[type="checkbox"], 
+#menu ul span.drop-icon {
+  display: none;
+}
+
+/*Navigation menu and sub-menu layout (specific border layout)*/
+#menu li, 
+#toggle-menu, 
+#menu .sub-menu {
+  border-style: solid;
+  border-color: rgba(0, 0, 0, .05);
+}
+
+/*Navigation menu layout (border)*/
+#menu li, 
+#toggle-menu {
+  border-width: 0 0 .5px;
+}
+
+/*Navigation sub-menu layout (color and border)*/
+#menu .sub-menu {
+  border-width: 0 0 .5px;
+}
+
+/*Navigation menu content and margin of li*/
+#menu li, 
+#toggle-menu, 
+#menu a {
+  position: relative;
+  display: block;
+  color: black;
+  background-color: white;
+}
+.sub-menu li{
+padding: 0;
+}
+
+/*Navigation menu layout (padding)*/
+#toggle-menu, 
+#menu a {
+  padding: 1em;
+}
+
+/*Transition when a link is clicked in the navigation menu*/
+#menu a {
+  transition: all .125s ease-in-out;
+  -webkit-transition: all .125s ease-in-out;
+}
+
+/*Displays color (light green) when drop icon (▾) is clicked & hovered*/
+#menu a:hover {
+  background-color: #e5fbe5;
+}
+
+/*To display the contents in drop icon (▾) when clicked*/
+#menu input[type="checkbox"]:checked + .sub-menu {
+  display: block;
+}
+
+/*To hide the contents in drop icon (▾) when clicked and margin-left of sub-menu*/
+#menu .sub-menu {
+  display: none;
+  margin-left: 0;
+  position: relative;
+}
+
+/*Position of the drop icons (☰ & ▾) where it is located on the right side*/
+#toggle-menu .drop-icon, 
+#menu li label.drop-icon {
+  position: absolute;
+  bottom: 0em;
+  top: 1em;
+  left: 80em;
+}
+
+/*Position of drop icon (▾)--alignment to text*/ 
+#menu li label.drop-icon {
+  position: absolute;
+  bottom: 0em;
+  top: 0.6em;
+  left: 15.4em;
+}
+
+/*Drop icon (▾) shadow*/
+#menu label.drop-icon{
+  border-radius: 100%;
+  width: 2em;
+  height: 2em;
+  text-align: center;
+  background-color: #004b00;
+  opacity: 0.7;
+  text-shadow: 0 0 0 transparent;
+  color: #f6fef6;
+}
+
+/*Drop icon (☰) shadow*/
+#toggle-menu span.drop-icon {
+  border-radius: 0%;
+  width: 3.2em;
+  height: 3.2em;
+  text-align: center;
+  background-color: #004b00;
+  opacity: 0.7;
+  text-shadow: 0 0 0 transparent;
+  color: #f6fef6;
+}
+
+/*Drop icon (▾) alignment to its shadow*/
+#menu .drop-icon {
+  line-height: 2;
+}
+/*Drop icon (☰) alignment to its shadow*/
+#toggle-menu span.drop-icon {
+  line-height: 3;
+}

@@ -1,0 +1,253 @@
+/*margin*/
+body{
+margin-top: 0;
+margin-left: 0;
+margin-right: 0;
+}
+/*
+We use margin on divs to avoid poor semantic HTML with <br>. Best case (http://tantek.com/log/2002/10.html#L20021022t1432)
+
+But I'll leave it poorly semantic for now.
+div{
+margin-top: 2em;
+}
+*/
+
+/*Pheagle logo*/
+#logo{
+height: 4em;
+width: 4em;
+margin-top: 0;
+top: 1.8em;
+margin-left: 15px;
+position: absolute;
+}
+
+/*Removes underlines on links and highlights specific date*/
+a{
+text-decoration: none;
+color: #004b00;
+}
+.highlight{
+color: #004b00;
+font-weight: bold;
+}
+
+/*Button design and location*/
+#biobutton{
+background-color: #007e00;
+border: none;
+color: white;
+padding: 15px 15px;
+text-align: center;
+text-decoration: none;
+display: inline-block;
+font-size: 16px;
+top: 32.5em;
+left: 38.5em;
+position: absolute;
+}
+#news1{
+background-color: #007e00;
+border: none;
+color: white;
+padding: 15px 15px;
+text-align: center;
+text-decoration: none;
+display: inline-block;
+font-size: 16px;
+top: 95em;
+left: 40em;
+position: absolute;
+}
+#news2{
+background-color: #007e00;
+border: none;
+color: white;
+padding: 15px 15px;
+text-align: center;
+text-decoration: none;
+display: inline-block;
+font-size: 16px;
+top: 148em;
+left: 40em;
+position: absolute;
+}
+#discoverbutton{
+background-color: #007e00;
+border: none;
+color: white;
+padding: 15px 15px;
+text-align: center;
+text-decoration: none;
+display: inline-block;
+font-size: 16px;
+top: 192.5em;
+left: 38.7em;
+position: absolute;
+}
+#endemic {
+background-color: #007e00;
+border: none;
+color: white;
+padding: 15px 15px;
+text-align: center;
+text-decoration: none;
+display: inline-block;
+font-size: 16px;
+top: 334em;
+right: 18em;
+position: absolute;
+}
+#actbutton {
+background-color: #007e00;
+border: none;
+color: white;
+padding: 15px 15px;
+text-align: center;
+text-decoration: none;
+display: inline-block;
+font-size: 16px;
+top: 372em;
+left: 37.8em;
+position: absolute;
+}
+#fundbutton {
+background-color: #007e00;
+border: none;
+color: white;
+padding: 15px 15px;
+text-align: center;
+text-decoration: none;
+display: inline-block;
+font-size: 16px;
+top: 415em;
+left: 40em;
+position: absolute;
+}
+
+/*The horizontal lines*/
+.hrhead{
+border: 4px solid black;
+opacity: 0.8;
+margin-top: 0;
+margin-left: 0;
+margin-right: 0;
+}
+.hrbody{
+border: 2px solid #004b00;
+opacity: 0.8;
+width: 4em;
+}
+
+/*Images*/
+#biodiversity{
+margin-top: 4em;
+width: 100%;
+height: 30em;
+}
+#forestfire{
+width: 60%;
+height: 20em;
+margin-left: 0;
+left: 16em;
+position: relative;
+}
+#scaevolasubalpina{
+width: 60%;
+height: 20em;
+margin-left: 0;
+left: 16em;
+position: relative;
+}
+#philippineeagle{
+width: 60%;
+height: 20em;
+margin-left: 0;
+top: 2em;
+left: 16em;
+position: relative;
+}
+#tamaraw{
+width: 60%;
+height: 20em;
+margin-left: 0;
+top: 2em;
+left: 16em;
+position: relative;
+}
+#philippinecrocodile{
+width: 60%;
+height: 20em;
+margin-left: 0;
+top: 2em;
+left: 16em;
+position: relative;
+}
+
+/*Content under images*/
+p#biodiversity{
+position: absolute;
+text-align: center;
+font-size: 22px;
+color: white;
+text-shadow: black 1px 0 0em;
+top: 4em;
+margin-top: 13em;
+}
+span#biodiversity{
+position: relative;
+font-weight: bold;
+font-size: 35px;
+right: 0.5em;
+}
+p#forestfire{
+left: 13.4em;
+text-align: left;
+font-size: 19px;
+}
+span#forestfire{
+font-weight: bold;
+font-size: 33px;
+left: 0;
+}
+p#scaevolasubalpina{
+text-align: left;
+font-size: 19px;
+left: 13.4em;
+}
+span#scaevolasubalpina{
+font-weight: bold;
+font-size: 33px;
+left: 0;
+}
+
+/*Contents under discover*/
+.standard{
+margin-left: 10.2em;
+margin-right: 10.2em;
+font-style: italic;
+font-size: 19px;
+text-align: left;
+}
+.title{
+margin-left: 10.5em;
+text-align: left;
+}
+.description{
+margin-left: 15em;
+margin-right: 16em;
+text-align: left;
+font-size: 17px;
+}
+
+/*footer*/
+footer{
+text-size: 19px;
+color: white;
+font-weight: bold;
+background-color: black;
+}
+.footer{
+color: white;
+}
